@@ -18,7 +18,7 @@ symbols_count = int(input("How many symbols would you like?\n"))
 numbers_count = int(input("How many numbers would you like?\n"))
 
 password_characters = []
-for char in range (0, letters_count):
+for char in range (0, letters_count): #loop nth times using "range(start, end)"
     password_characters.append(random.choice(letters)) #randomly selects an element "random.choice()" and add it in the list "append()"
 
 for char in range(0, symbols_count):
